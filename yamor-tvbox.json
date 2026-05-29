@@ -1,0 +1,51 @@
+{
+    "spider": "https://jihulab.com/yoursmile3/TVBox/-/raw/main/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+    "wallpaper": "https://bing.img.run/uhd.php",
+
+    "sites": [
+        {"key":"csp_LocalFile","name":"📂本机文件","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":1,"type_flag":0},
+
+        {"key":"豆瓣","name":"🔍豆瓣推荐","type":3,"api":"csp_TgYunDouBanPan","searchable":1,"changeable":0,"ext":{"siteUrl":"http://127.0.0.1:9999","count":4,"channelUsername":"Tgsearchers6,peccxinpd,yunpan139,yggpan,yunpanuc,shareAliyun,yunpan189,BaiduCloudDisk,Channel_Shares_115,gimy115,ydypzyfx,dianying4K,sbsbsnsqq,Q_dongman,ysmffx,XiangxiuNBB,yoyokuakeduanju,yeqingjie_GJG666,TG654TG,PanjClub,guoman4K,alyp_1,kuake_yppan,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,tianyirigeng,tyypzhpd,zaihuayun,ali_yppan","commonConfig":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","filter":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/douban.json"}},
+
+        {"key":"天天","name":"⛅天天影视","type":3,"api":"csp_TTian","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg0939791h1l3888jig44gi291li"},
+        {"key":"金牌","name":"🥇金牌影视","type":3,"api":"csp_Jpys","searchable":1,"quickSearch":1,"filterable":1,"ext":"7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"},
+        {"key":"首发","name":"🚀首发影院","type":3,"api":"csp_Qiji","ext":"7lj763gg402i7942483l849kk10ljji4g6li98059ijj72225j5255l2k95g5i1h1g985ggj905j86ig3604gi80lgl30jk3hk637h53ghk49hgi689125k7738h7947igg3k5h3gk6j12718k402802hlkh6k527581gk4936hkj49i8i9g2hh53l320l3i3197"},
+        {"key":"趣看","name":"🥽趣看影视","type":3,"api":"csp_Qiji","ext":"7lj763gg402i79425l239ljhg55099jiljhhj910il877129534l1ik9l1184k401g9g54gk8j5i9097751kh28kh9l211l2lk696110l0ggjlk0339j25j768855553lkl8l1g5i05018428357244jh6l0607k61h5l55j20j0k996hl977gl13g"},
+
+        {"key":"push_agent","name":"📽推送","type":3,"api":"csp_PushAgent","searchable":1,"quickSearch":1,"filterable":0}
+    ],
+
+    "lives": [
+        {
+            "name": "直播源",
+            "type": "0",
+            "pass": true,
+            "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/v6.m3u",
+            "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
+            "logo": "https://epg.v1.mk/logo/{name}.png"
+        }
+    ],
+
+    "rules": [
+        {"name": "proxy","hosts":["dmku.thefilehosting.org"]},
+        {"name": "广告","hosts":["ads"],"regex":[""]},
+        {"name":"火山","hosts":["sy.3buqicai.com","cdn.3buqicai.com"],"regex":["^https?://.+/api/v1/client \\(2\\)$"]}
+    ],
+
+    "ads": [
+        "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "mc.usihnbcq.cn",
+        "mg.g1mm3c.cn",
+        "mscs.uvaeqod.cn",
+        "cnzz.hohotech.cn",
+        "c.jwqh214.cn",
+        "c.njmcdjv.cn",
+        "tan1.gdog.top",
+        "tan2.gdog.top",
+        "tan3.gdog.top",
+        "tan4.gdog.top",
+        "tan5.gdog.top"
+    ]
+}
